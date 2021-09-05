@@ -1,0 +1,111 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.header{
+   background-size: cover;
+   background-position: 100% 100%;
+   height: auto;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   overflow-x: hidden;
+
+   
+}
+.header-para button{
+color: white;
+}
+.get-started-response{
+  width: 100%;
+}
+
+.started-now i{
+color: $blueColor;
+font-weight: 700;
+font-size: 16px;
+}
+ 
+.btn-style{
+  background-color: $turqoiseColor;
+  
+}
+.btn.nohover:hover{
+  color: $myColor;
+  transition: .5s;
+}
+.card-border{
+  border-top: 3px solid $turqoiseColor;
+  
+}
+
+
+
+    
+.easy-to-use{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 20px;
+  
+  
+ }
+ .subscribe-text{
+   line-height: 1.3rem;
+ }
+    
+.easy{
+  margin-left: 7%;
+}
+
+
+.container-image{
+    width: 100%;
+    
+    
+}
+
+.feature-css{
+  
+    background-image: url("../images/image\ \(11\).png");
+    background-size: cover;
+    background-position: 100% 100%;
+    padding-top: 100px;
+   
+    color: $myColor;
+    border-radius: 100px;
+  
+    
+    left: 10px;
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+    }
+    
+ 
+.footer{
+   height: auto;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   overflow-x: hidden;
+}
+@import "pricingTabs";
+@import "main";
+@import "email";
